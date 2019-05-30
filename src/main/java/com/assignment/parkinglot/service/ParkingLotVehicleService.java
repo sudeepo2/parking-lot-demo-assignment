@@ -1,4 +1,4 @@
-package com.assignment.parkinglot.parkinglot.service;
+package com.assignment.parkinglot.service;
 
 import java.time.LocalDateTime;
 import java.util.Arrays;
@@ -6,11 +6,11 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.assignment.parkinglot.parkinglot.bean.BikeParking;
-import com.assignment.parkinglot.parkinglot.bean.CarParking;
-import com.assignment.parkinglot.parkinglot.bean.ParkingLot;
-import com.assignment.parkinglot.parkinglot.bean.VehicleParking;
-import com.assignment.parkinglot.parkinglot.enums.VehicleType;
+import com.assignment.parkinglot.bean.BikeParking;
+import com.assignment.parkinglot.bean.CarParking;
+import com.assignment.parkinglot.bean.ParkingLot;
+import com.assignment.parkinglot.bean.VehicleParking;
+import com.assignment.parkinglot.enums.VehicleType;
 @Service
 public interface ParkingLotVehicleService{
 	

@@ -1,9 +1,9 @@
-package com.assignment.parkinglot.parkinglot.service.impl;
+package com.assignment.parkinglot.service.impl;
 
 import java.util.List;
 
-import com.assignment.parkinglot.parkinglot.bean.VehicleParking;
-import com.assignment.parkinglot.parkinglot.service.ParkingLotVehicleService;
+import com.assignment.parkinglot.bean.VehicleParking;
+import com.assignment.parkinglot.service.ParkingLotVehicleService;
 
 public class CarParkingService implements ParkingLotVehicleService {
 

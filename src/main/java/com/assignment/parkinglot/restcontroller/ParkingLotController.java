@@ -1,4 +1,4 @@
-package com.assignment.parkinglot.parkinglot.restcontroller;
+package com.assignment.parkinglot.restcontroller;
 
 import java.time.LocalDateTime;
 import java.util.Arrays;
@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.assignment.parkinglot.parkinglot.bean.BikeParking;
-import com.assignment.parkinglot.parkinglot.bean.CarParking;
-import com.assignment.parkinglot.parkinglot.bean.ParkingLot;
-import com.assignment.parkinglot.parkinglot.bean.VehicleParking;
+import com.assignment.parkinglot.bean.BikeParking;
+import com.assignment.parkinglot.bean.CarParking;
+import com.assignment.parkinglot.bean.ParkingLot;
+import com.assignment.parkinglot.bean.VehicleParking;
 
 @RestController
 public class ParkingLotController {

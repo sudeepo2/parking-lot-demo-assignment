@@ -1,10 +1,10 @@
-package com.assignment.parkinglot.parkinglot.bean;
+package com.assignment.parkinglot.bean;
 
 import java.util.List;
 
 import org.springframework.util.StringUtils;
 
-import com.assignment.parkinglot.parkinglot.enums.VehicleType;
+import com.assignment.parkinglot.enums.VehicleType;
 
 public class ParkingLot {
 	

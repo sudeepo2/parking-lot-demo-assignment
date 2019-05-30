@@ -1,4 +1,4 @@
-package com.assignment.parkinglot.parkinglot.bean;
+package com.assignment.parkinglot.bean;
 
 import java.time.LocalDateTime;
 import java.util.Date;
