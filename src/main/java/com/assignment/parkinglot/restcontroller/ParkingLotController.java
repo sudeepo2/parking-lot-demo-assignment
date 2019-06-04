@@ -1,5 +1,6 @@
 package com.assignment.parkinglot.restcontroller;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -72,16 +73,16 @@ public class ParkingLotController {
 
 	}
 
-	@DeleteMapping("/parkinglot/carparking/exitcar")
-	public void exitCar(@RequestBody VehicleRequest request) {
-		this.carParkingService.exitVehicle(request.getRegistrationNo(), request.getExitTime());
+	@DeleteMapping("/parkinglot/carparking/exitcar/{registrationNo}")
+	public void exitCar(@PathVariable("registrationNo") String registrationNo) {
+		this.carParkingService.exitVehicle(registrationNo, LocalDateTime.now().toString());
 
 	}
 
-	@DeleteMapping("/parkinglot/bikeparking/exitbike")
-	public void exitBike(@RequestBody VehicleRequest request) {
+	@DeleteMapping("/parkinglot/bikeparking/exitbike/{registrationNo}")
+	public void exitBike(@PathVariable("registrationNo") String registrationNo) {
 
-		this.bikeParkingService.exitVehicle(request.getRegistrationNo(), request.getExitTime());
+		this.bikeParkingService.exitVehicle(registrationNo, LocalDateTime.now().toString());
 
 	}
 }
