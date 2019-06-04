@@ -1,19 +1,17 @@
 package com.assignment.parkinglot.bean;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
-public class CarParking extends VehicleParking{
+public class CarParking extends VehicleParking {
 
-	public CarParking(String registrationNo, String parkingNO, LocalDateTime entryTime, LocalDateTime exitTime) {
-		super(registrationNo, parkingNO, entryTime, exitTime);
+	public CarParking(String registrationNo, String parkingNo, LocalDateTime entryTime, LocalDateTime exitTime) {
+		super(registrationNo, parkingNo, entryTime, exitTime);
 		// TODO Auto-generated constructor stub
 	}
 
-	
-	
-	
+	public CarParking() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
-	
 }
-

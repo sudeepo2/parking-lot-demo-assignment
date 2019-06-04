@@ -29,4 +29,11 @@ public class VehicleRequest {
 		this.exitTime = exitTime;
 	}
 
+	public VehicleRequest(String registrationNo, String entryTime, String exitTime) {
+		super();
+		this.registrationNo = registrationNo;
+		this.entryTime = entryTime;
+		this.exitTime = exitTime;
+	}
+
 }
